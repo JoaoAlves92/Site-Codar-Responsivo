@@ -1,0 +1,53 @@
+.comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentario-card {
+    background-color: #dddcdc;
+    border-radius: 8px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.comentario-foto {
+    height: 60px;
+    width: 60px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    background-color: #D6000D;
+}
+
+.comentario-texto {
+    width: 70%;
+}
+
+.comentario-texto h4 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: -0.5rem;
+}
+
+.comentario-texto h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -1.7rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 860px) {
+    .comentario {
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 80%;
+    }
+
+    .comentario-card {
+        width: 45%;
+    }
+}
